@@ -1,0 +1,6 @@
+The results in repl.it are inconsistent.
+Each time a test is run, different results are returned. The function with the fastest runtime also changes.
+This may have to do with the memory allocation of the machine. 
+When the code is run on a local machine, the results seem to be more consistent. You still get different results but the function with the fastest runtime is the same each time (mostly). There was one test where isLower2 was faster than isLower3 (on my machine)
+isLower3 seems to be the fastest.
+Report data is output to log_rpt.txt.

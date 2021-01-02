@@ -1,0 +1,18 @@
+report date: 2020-12-25 09:31:54.053077
+time is in seconds.
+  isLower1 runtime: 7.160006134654395e-07
+  isLower2 runtime: 4.0899976738728583e-07
+  isLower3 runtime: 4.439998519956134e-07
+
+report date: 2020-12-25 09:31:58.043098
+time is in seconds.
+  isLower1 runtime: 5.759993655374274e-07
+  isLower2 runtime: 4.120001904084347e-07
+  isLower3 runtime: 4.150006134295836e-07
+
+report date: 2020-12-25 09:32:01.224008
+time is in seconds.
+  isLower1 runtime: 5.550000423681922e-07
+  isLower2 runtime: 4.639996404876001e-07
+  isLower3 runtime: 4.229996193316765e-07
+

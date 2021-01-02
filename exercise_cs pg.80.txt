@@ -1,0 +1,26 @@
+How to think like a cs
+
+Section 7.10 - Pg.80
+Exercise: As an exercise, discuss which version of isLower you think will be fastest.
+Can you think of other reasons besides speed to prefer one or the other?
+code: https://repl.it/@ShermanBernard/isLower#main.py
+Python files: isLower1.py, isLower2.py and isLower3.py
+
+I think the third version of the isLower function will be the fastest. 
+This is because it doesn't traverse the entire string. Instead, it checks if ch is within the range. This seems to be a faster process. 
+
+Additionally, the third version appears to not have any dependicies. The first version uses the find function and the second version uses the ascii method. 
+
+The other advantages of this version is that it requires less code and its easier to read.
+
+Notes(Pg.80 exercise): 
+I was having trouble understanding what the author was trying to achieve but I think I understand it now.
+
+The output for the first version of the isLower function is: 
+in ['c']: print isLower('c') # Python 2 code
+out ['c']: True
+
+The book did not specify what the correct output should be, so I was confused about what the function was trying to do.
+
+I understand now that the function outputs True or False based on whether the result -1. If its not -1, its True. 
+The purpose is the same for the second and third versions of the function but the in operator and range function is used instead.
