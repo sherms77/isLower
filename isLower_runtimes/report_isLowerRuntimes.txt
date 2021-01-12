@@ -4,3 +4,7 @@ This may have to do with the memory allocation of the machine.
 When the code is run on a local machine, the results seem to be more consistent. You still get different results but the function with the fastest runtime is the same each time (mostly). There was one test where isLower2 was faster than isLower3 (on my machine)
 isLower3 seems to be the fastest.
 Report data is output to log_rpt.txt.
+Angie H contributed a script.
+Ran test on her script. Angie's script is the fastest.
+Angie's script has 0 dependicies and is 2 lines of code. This makes it faster.
+Test results in isLower runtimes folder. Saved in log_rpt2(local).

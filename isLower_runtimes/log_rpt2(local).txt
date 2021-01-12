@@ -1,0 +1,14 @@
+report date: 2021-01-12 13:31:46.437520
+time is in seconds.
+  isLower1 runtime: 5.060001058154739e-07
+  isLower2 runtime: 3.4799995773937553e-07
+  isLower3 runtime: 3.2200023269979283e-07
+  isLower_a runtime: 2.9600005291285925e-07
+
+report date: 2021-01-12 13:33:20.094705
+time is in seconds.
+  isLower1 runtime: 2.085000232909806e-06
+  isLower2 runtime: 1.210999926115619e-06
+  isLower3 runtime: 1.1090000953117851e-06
+  isLower_a runtime: 1.0909998309216462e-06
+

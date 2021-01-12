@@ -20,15 +20,22 @@ def isLower3(ch):
     return 'a' <= ch <= 'z'
 """
 
+test_code_angie = """
+def isLower_a(ch):
+    return True if ch.lower() == ch else False
+"""
+
 exe_time1 = timeit.timeit(test_code1, number = 1)
 exe_time2 = timeit.timeit(test_code2, number = 1)
 exe_time3 = timeit.timeit(test_code3, number = 1)
+exe_time_angie = timeit.timeit(test_code_angie, number = 1)
 
 stamp = datetime.datetime.now()
 print('report date:', stamp)
 print('isLower1 runtime is: ', exe_time1) # time is in seconds
 print('isLower2 runtime is: ', exe_time2)
 print('isLower3 runtime is: ', exe_time3)
+print('isLower_a runtime is: ', exe_time_angie)
 
 def report():
     log = open('log_rpt.txt', 'a')
@@ -56,8 +63,13 @@ def report():
     log.write('  isLower3 runtime: ')
     log.write(str(exe_time3))
     log.write('\n')
+    
+    # isLower_angie ouput
+    log.write('  isLower_a runtime: ')
+    log.write(str(exe_time_angie))
     log.write('\n')
-        
+    log.write('\n')
+            
     log.close()
 
 report()
